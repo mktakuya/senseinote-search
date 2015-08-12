@@ -1,0 +1,23 @@
+{
+    "name": "SENSEI NOTE Search",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "右クリックメニューからSENSEI NOTE検索",
+
+    "permissions": [
+        "tabs", "http://*/*", "contextMenus"
+    ],
+
+    "icons": {
+        "128": "icons/128.png",
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
+
